@@ -1,0 +1,21 @@
+{
+  "name": "aptos-2048",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^3.0.0",
+    "@wgb5445/aptos-client": "^2.0.3",
+    "@wgb5445/aptos-wallet-connect-kit": "^0.1.2",
+    "pixi.js": "^8.10.2"
+  }
+}
